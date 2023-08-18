@@ -17,11 +17,3 @@ class Solution:
         if q.val != p.val:
             return False
         return True and self.isSameTree(p.right, q.right) and self.isSameTree(p.left, q.left)
-p = TreeNode(1)
-p.left = TreeNode(2)
-p.right = TreeNode(3)
-
-q = TreeNode(1)
-q.left = TreeNode(1)
-q.right = TreeNode(3)
-print(Solution().isSameTree(p, q))

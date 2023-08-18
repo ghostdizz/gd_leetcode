@@ -24,7 +24,3 @@ class Solution:
             temp_node_2 = temp_node_1.next.next
             temp_node_1.next = temp_node_2
         return head
-
-solution = Solution()
-head = ListNode(1)
-print(solution.removeNthFromEnd(head, 1))
