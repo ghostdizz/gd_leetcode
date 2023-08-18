@@ -10,4 +10,3 @@ class Solution:
             return (nums[a] + nums[a+1])/2
         else:
             return nums[int((length-1)/2)]
-print(Solution().findMedianSortedArrays([1,3], [2]))
