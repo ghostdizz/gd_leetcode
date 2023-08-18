@@ -18,3 +18,4 @@ class Solution:
         if abs(self.max_depth(root.left) - self.max_depth(root.right)) > 1:
             return False
         return self.isBalanced(root.left) and self.isBalanced(root.right)
+

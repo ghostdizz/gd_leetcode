@@ -32,3 +32,4 @@ class Solution:
             number3 = number3 // 10
         return l3.next
             
+            
