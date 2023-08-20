@@ -1,9 +1,14 @@
+from collections import Counter
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
-        dic = {}
-        for i in s:
-            dic[i] = True
-        for j in t:
-            if j not in dic:
-                return j
-            
+        count1 = Counter(s)
+        count2 = Counter(t)
+        for i in count2:
+            try:
+                if count2[i] > count1[i]:
+                    return i
+            except:
+                if i not in count2:
+                    return i
+
+print(Solution().findTheDifference("abcd", "abcde"))
