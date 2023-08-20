@@ -11,4 +11,3 @@ class Solution:
                 if i not in count2:
                     return i
 
-print(Solution().findTheDifference("abcd", "abcde"))
