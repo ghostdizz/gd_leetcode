@@ -11,5 +11,3 @@ class Solution:
         elif length1 > length2:
             s += word1[length2:]
         return s
-
-print(Solution().mergeAlternately("ab", "pqrs"))
