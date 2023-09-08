@@ -12,7 +12,7 @@ class Solution:
         temp_llist = llist
         temp_head = head
         while temp_head:
-            temp_llist.next = temp_head
+            temp_llist.next = ListNode(temp_head.val)
             temp_llist = temp_llist.next
             try:
                 temp_head = temp_head.next.next
@@ -20,7 +20,7 @@ class Solution:
                 break
         temp_head = head.next
         while temp_head:
-            temp_llist.next = temp_head
+            temp_llist.next = ListNode(temp_head.val)
             temp_llist = temp_llist.next
             try:
                 temp_head = temp_head.next.next
