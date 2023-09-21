@@ -3,6 +3,8 @@ class Solution:
         self.min_count = float('inf')
 
     def recursion(self, n, count):
+        if count >= self.min_count:
+            return
         if n == 1: 
             if count < self.min_count:
                 self.min_count = count
@@ -17,4 +19,3 @@ class Solution:
         self.recursion(n, 0)
         return self.min_count
     
-print(Solution().integerReplacement(8))
