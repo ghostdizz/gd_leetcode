@@ -16,5 +16,3 @@ class Solution:
         if digits == "": return []
         self.combinate(digits, "")
         return self.lst
-    
-print(Solution().letterCombinations("23"))
