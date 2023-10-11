@@ -8,5 +8,3 @@ class Solution:
         if nums[0]*nums[1]*nums[-1] > a:
             return nums[0]*nums[1]*nums[-1]
         return a
-
-print(Solution().maximumProduct([1,2,3,4]))
