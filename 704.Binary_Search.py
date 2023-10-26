@@ -21,3 +21,5 @@ class Solution:
         elif nums[idx2] == target:
             return idx2
         return -1
+
+        
