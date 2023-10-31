@@ -24,5 +24,3 @@ class Solution:
             pre_node = pre_node.next
         pre_node.next = None
         return head
-
-
