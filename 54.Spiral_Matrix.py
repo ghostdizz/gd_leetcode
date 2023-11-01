@@ -27,4 +27,3 @@ class Solution:
                     length += 1
                 vertical1 += 1
         return arr
-    
