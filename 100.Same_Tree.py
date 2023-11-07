@@ -17,3 +17,4 @@ class Solution:
         if q.val != p.val:
             return False
         return True and self.isSameTree(p.right, q.right) and self.isSameTree(p.left, q.left)
+        
