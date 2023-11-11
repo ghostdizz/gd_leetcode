@@ -22,4 +22,3 @@ class Solution:
         Set = set([i for i in range(1,n+1)])
         self.recursion(Set, n, k, fac)
         return self.s
-    
