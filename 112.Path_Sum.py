@@ -20,4 +20,3 @@ class Solution:
             return True
         else:
             return self.hasPathSum(root.left, targetSum-root.val) or self.hasPathSum(root.right, targetSum-root.val)
-        
